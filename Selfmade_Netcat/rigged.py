@@ -6,7 +6,7 @@ port = 9998
 
 def main():
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    socket.bind((ip,port))
+    server.bind((ip,port))
     server.listen(5)
     print(f'[*] Listening on {ip}:{port}')
     
