@@ -24,7 +24,14 @@ function rechne(){
             var wert = zahl_1 * zahl_2;
         }else if (operator == "/"){
             var wert = zahl_1 / zahl_2;
-        } else{
+        }else if (operator == "√"){
+            var wert = Math.pow(zahl_2, 1/zahl_1);
+            if (isNaN(wert)){
+                var wert = "Wurzel Ziehen nicht möglich!"
+            }
+        }else if (operator == "^"){
+            var wert = Math.pow(zahl_1,zahl_2);
+        }else{
             var wert = "Der Operator: " + operator + " ist nicht gültig!";
         }
          
