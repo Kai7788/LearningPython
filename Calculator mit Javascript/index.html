@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script async ="text/javascript" src="logic.js"></script>
+        <link rel="stylesheet" href="stylesheet.css">
+        <title>Super Taschenrechner</title>
+    </head>
+<body>
+    <div class="content">
+        <h1>Rechner</h1>
+        <form action="#" method="post" id="value_form">
+            <label for="zahl_1">
+                <input type="text" id="zahl_1" name="zahl_1">
+            </label>
+            <label for="operator">
+                <select name="operator" id="operator">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                </select>
+            </label>
+            <label for="zahl_2">
+                <input type="text" id="zahl_2" name="zahl_2">
+            </label>
+            <input type="button" name="submit" id="submit" value="Eingabe" onclick="rechne()">
+        </form>
+        <h2 id="Ergebniss">Ergebniss: </h2>
+    </div>
+</body>
+</html>

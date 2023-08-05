@@ -1,0 +1,23 @@
+body {
+    margin:0;
+    background:linear-gradient(90deg, #cc2b5e ,#753a88);
+    
+}
+body div.content{
+    margin: auto;
+    height:10%;
+    width: auto;
+    background-color: rgb(168, 235, 224);
+    text-align: center;
+    margin-top: 15%;
+    max-width: 40%;
+    position:center;
+    min-width: 30%;
+    border-radius: 25px;
+}
+
+input{
+    border:0;
+    border-radius: 25px;
+    
+}
